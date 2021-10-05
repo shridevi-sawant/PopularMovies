@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidRetrofit">
         <activity
+            android:name=".MovieActivity"
+            android:exported="true"
+            android:label="@string/title_activity_movie"
+            android:theme="@style/Theme.AndroidRetrofit.NoActionBar" />
+        <activity
             android:name=".MovieDetailActivity"
             android:exported="true" />
         <activity
